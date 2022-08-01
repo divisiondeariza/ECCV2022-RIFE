@@ -101,6 +101,7 @@ else:
             tmp.append(mid)
         tmp.append(img1)
         img_list = tmp
+img_list.pop()
 
 if not os.path.exists('output'):
     os.mkdir('output')
